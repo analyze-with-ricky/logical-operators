@@ -83,6 +83,17 @@ class Operators:
         print("\n+-----+-----+-----+-----+")
         print("BICONDITIONAL TRUTH TABLE")
         print("+-----+-----+-----+-----+")
+        print()
+        print("+-----+-----+---------+")
+        print("|  T  |  T  |    T    |")
+        print("+-----+-----+---------+")
+        print("|  T  |  F  |    F    |")
+        print("+-----+-----+---------+")
+        print("|  F  |  T  |    F    |")
+        print("+-----+-----+---------+")
+        print("|  F  |  F  |    T    |")
+        print("+-----+-----+---------+")
+        print()
 
 
 obj_operators = Operators()
